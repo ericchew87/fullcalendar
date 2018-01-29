@@ -1,0 +1,7 @@
+name: FullCalendar Scheduler
+type: module
+description: Adds Scheduler support to Fullcalendar views.
+core: 8.x
+package: FullCalendar
+dependencies:
+  - fullcalendar

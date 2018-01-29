@@ -1,0 +1,22 @@
+fullcalendar_scheduler:
+  remote: https://fullcalendar.io/scheduler/
+  version: 1.9.1
+  license:
+    name: proprietary
+    url: https://github.com/fullcalendar/fullcalendar-scheduler/blob/master/LICENSE.md
+    gpl-compatible: true
+  js:
+    /libraries/fullcalendar-scheduler/scheduler.js: {}
+  css:
+    theme:
+      /libraries/fullcalendar-scheduler/scheduler.css: {}
+  dependencies:
+    - fullcalendar/fullcalendar
+
+drupal.fullcalendar_scheduler:
+  version: VERSION
+  js:
+    js/fullcalendar_scheduler.fullcalendar_scheduler.js: { }
+  dependencies:
+    - fullcalendar_scheduler/fullcalendar_scheduler
+    - fullcalendar/drupal.fullcalendar.js
