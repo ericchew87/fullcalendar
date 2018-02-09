@@ -13,6 +13,7 @@ use Drupal\fullcalendar\Plugin\FullcalendarBase;
  * @FullcalendarOption(
  *   id = "fullcalendar_scheduler",
  *   module = "fullcalendar_scheduler",
+ *   js = TRUE,
  *   weight = "10",
  * )
  */

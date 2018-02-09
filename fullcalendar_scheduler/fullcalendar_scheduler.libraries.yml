@@ -13,7 +13,7 @@ fullcalendar_scheduler:
   dependencies:
     - fullcalendar/fullcalendar
 
-drupal.fullcalendar_scheduler:
+drupal.fullcalendar_scheduler.js:
   version: VERSION
   js:
     js/fullcalendar_scheduler.fullcalendar_scheduler.js: { }
