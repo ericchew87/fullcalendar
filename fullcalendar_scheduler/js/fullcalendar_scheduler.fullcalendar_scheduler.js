@@ -28,8 +28,9 @@
             allDay: (event.data('all-day') === 1),
             className: event.data('cn'),
             editable: (event.data('editable') === 1),
+            color: event.data('color'),
             dom_id: this.dom_id,
-            resourceId: settings.events[eid].resourceId,
+            resourceId: settings.events[eid].resourceId
           });
         }
         callback(events);
@@ -39,7 +40,7 @@
 
       // Merge in our settings.
       $.extend(options, settings.fullcalendar_scheduler);
-      
+
       options.resourceRender = function (resourceObj, labelTds, bodyTds) {
         labelTds.find('.fc-cell-text').html(resourceObj.html);
       };
